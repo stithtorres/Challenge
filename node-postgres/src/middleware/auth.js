@@ -5,6 +5,7 @@ module.exports = function (req, res, next){
     if(!token)return res.status(401).send('Access denied.');
 
     try{
+        //jwtpk must be a environment var, and should be secret
         const decoded = jwt.verify(token,'jwtpk');
         req.user = decoded;
         next();

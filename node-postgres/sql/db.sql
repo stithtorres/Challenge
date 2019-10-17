@@ -20,4 +20,4 @@ create table if not exists comments(
     user_id integer references users(id)
 );
 
-insert into users (name,email,password) values ('admin','admin@admin.com','admin');
+insert into users (name,email,password) values ('admin','admin@admin.com.com','admin');

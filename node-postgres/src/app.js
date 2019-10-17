@@ -2,8 +2,6 @@ import express, {json} from 'express';
 import morgan from 'morgan';
 
 // importing routes
-//import projectRoutes from './routes/projects';
-//import taskRoutes from './routes/tasks';
 import auth from './routes/auth';
 import usersRoutes from './routes/usersRoutes';
 import ranksRoutes from './routes/ranksRoutes';

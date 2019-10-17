@@ -1,14 +1,23 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import $ from 'jquery';
+import $ from "jquery";
 
-const NavBar = ({user}) => {
+const NavBar = ({ user }) => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark mb-3">
       <Link className="navbar-brand" to="/">
         Challenge
       </Link>
-      <button onClick={()=>toggleNavBar()} className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"   >
+      <button
+        onClick={() => toggleNavBar()}
+        className="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
         <span className="navbar-toggler-icon" />
       </button>
       <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -28,7 +37,6 @@ const NavBar = ({user}) => {
           )}
           {user && (
             <React.Fragment>
-              
               <NavLink className="nav-item nav-link" to="/logout">
                 Logout
               </NavLink>
@@ -43,8 +51,8 @@ const NavBar = ({user}) => {
   );
 };
 
-function toggleNavBar(){
-    $("#navbarNavAltMarkup").toggle(500);
+function toggleNavBar() {
+  $("#navbarNavAltMarkup").toggle(500);
 }
 
 export default NavBar;

@@ -16,7 +16,19 @@ The mobile application should use this API from the service and will shown mov
  -npm run dev 
  -by default port 9000
  -sql/db.sql (schema of tables)
+ -src/database/connection.js (Postgres Data Base Configuration)
  ```
+ 
+ ```
+"@babel/polyfill": "^7.6.0",
+"cors": "^2.8.5",
+"express": "^4.17.1",
+"jsonwebtoken": "^8.5.1",
+"morgan": "^1.9.1",
+"pg": "^7.12.1",
+"pg-hstore": "^2.3.3",
+"sequelize": "^5.19.6"
+```
  
  ## react/
  Front-end React based appication, designed specifically for the api. 
@@ -26,5 +38,22 @@ The mobile application should use this API from the service and will shown mov
  -npm i
  -npm start
  -by default port 3000
+ ```
+ 
+```
+"axios": "^0.18.1",
+"bootstrap": "^4.3.1",
+"font-awesome": "^4.7.0",
+"joi-browser": "^13.4.0",
+"jquery": "^3.4.1",
+"jwt-decode": "^2.2.0",
+"lodash": "^4.17.15",
+"prop-types": "^15.7.2",
+"react": "^16.10.2",
+"react-dom": "^16.10.2",
+"react-rating": "^2.0.0",
+"react-router-dom": "^5.1.2",
+"react-scripts": "3.2.0",
+"react-toastify": "^5.4.0"
  ```
  

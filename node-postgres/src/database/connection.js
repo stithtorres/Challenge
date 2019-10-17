@@ -1,5 +1,7 @@
 import Sequelize from 'sequelize';
 
+// this is the configuration for DB, the data must be hidden
+
 export const sequelize = new Sequelize(
     'cafeto_challenge',
     'postgres',
