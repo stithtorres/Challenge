@@ -19,5 +19,5 @@ create table if not exists comments(
     user_name text not null,
     user_id integer references users(id)
 );
-
+/*sample user*/
 insert into users (name,email,password) values ('admin','admin@admin.com.com','admin');
