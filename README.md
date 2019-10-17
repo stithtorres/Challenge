@@ -3,8 +3,7 @@
  
  The user will have a simple screen where he can select a year and he will get all movies ordered from January to December released in that year, the user could navigate all movies and he will provide a rank value from 1 (worst) to 5 (best), the user could made comments for each movie as well. The user can change his rank value anytime.  
 The information to be queried in the mobile app is the one provided by the open source database for movies called:  
-The Movie DB https://www.themoviedb.org/documentation/api  
-The mobile application should use this API from the service and will shown movies by year. 
+The Movie DB https://www.themoviedb.org/documentation/api The mobile application should use this API from the service and will shown movies by year. 
 
  
  ## node-postgres/
