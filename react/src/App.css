@@ -46,13 +46,18 @@ html {
 
 .wrapper-rating .number {
   position: absolute;
-  font-size: 50px;
-  font-weight: bolder;
-  left: -20px;
-  top: -15px;
-  color: white;
-  text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.4);
-  opacity: 0.75;
+    font-size: 55px;
+    font-weight: bolder;
+    left: -23px;
+    top: -18px;
+    color: white;
+    text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.4);
+    opacity: 0.75;
+    transition: all 0.5;
+}
+
+.wrapper-rating:hover .number {
+   opacity: 1;
 }
 
 .wrapper-rating .rating {
@@ -111,13 +116,15 @@ html {
 }
 
 .movie-wrapper .poster {
-  width: 100px;
-  max-width: 25%;
-  display: inline-block;
-  float: left;
-  border-radius: 8px;
-  margin: 0px 15px 0 0;
-  transition: all 0.5s;
+  width: 130px;
+    max-width: 30%;
+    display: inline-block;
+    float: left;
+    border-radius: 8px;
+    margin: 0px 15px 0 0;
+    transition: all 0.5s;
+    border: solid 4px transparent;
+    box-shadow: 0px 0px 0px 4px #80bcb2;
 }
 
 .movie-wrapper .poster:hover {
@@ -155,14 +162,20 @@ html {
   display: table;
   word-break: keep-all;
   min-width: 130px;
+  
 }
 .movie-wrapper .overview {
   text-align: left;
-  padding: 10px;
-  background-color: #797979;
-  color: white;
-  border-radius: 20px;
-  text-shadow: 1px 1px 2px #353535;
+    padding: 10px;
+    background-color: #797979;
+    color: white;
+    border-radius: 20px;
+    text-shadow: 1px 1px 2px #353535;
+    margin-left: 25px;
+    background: #797979;
+    background: linear-gradient(to right, #797979 0%,#9b9b9b 50%,#797979 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#797979', endColorstr='#797979',GradientType=1 );
+    box-shadow: 0px 0px 30px 3px white;
 }
 
 .clear {
