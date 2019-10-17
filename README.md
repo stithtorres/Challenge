@@ -1,5 +1,5 @@
 # Challenge
- FullStack Javascript App
+ FullStack Javascript App *made with love*.
  
  The user will have a simple screen where he can select a year and he will get all movies ordered from January to December released in that year, the user could navigate all movies and he will provide a rank value from 1 (worst) to 5 (best), the user could made comments for each movie as well. The user can change his rank value anytime.  
 The information to be queried in the mobile app is the one provided by the open source database for movies called:  
@@ -12,9 +12,10 @@ The mobile application should use this API from the service and will shown mov
  
  General configurations:
  ```
- npm run dev 
- by defaultport 9000
- db.sql (schema of tables)
+ -npm i
+ -npm run dev 
+ -by default port 9000
+ -sql/db.sql (schema of tables)
  ```
  
  ## react/
@@ -22,7 +23,8 @@ The mobile application should use this API from the service and will shown mov
  
  General configurations:
  ```
- npm start
- by default port 3000
+ -npm i
+ -npm start
+ -by default port 3000
  ```
  
